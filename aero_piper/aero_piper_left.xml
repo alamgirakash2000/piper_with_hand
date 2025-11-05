@@ -371,6 +371,7 @@
                     <geom name="tetheria_mount_collision_1" size="0.005 0.010 0.005" pos="0.045 -0.053 0.002" quat="-0.4987168014 0.6499403818 0.349101751 0.4549582613" type="box" />
                     <site name="grasp_site" pos="0.11 0 0.03" group="4" />
                     <body name="palm" pos="0.04 -0.01 -0.015" quat="0.4056064898 0.5792092674 0.5792092674 0.4056064898">
+           
             <geom type="mesh" class="hand_visual" mesh="left_frame_link" />
             <geom name="palm_collision_1" size="0.006 0.006 0.006" pos="0.031 0.0045 0.096" quat="0.5 -0.5 0.5 0.5" type="box" />
             <site name="palm_collision_1" pos="0.031 0.017 0.076" group="3" size="0.0001" />
@@ -605,7 +606,7 @@
                 <site name="th_mcp_tendon1_s0" pos="0 0.002 0.028" group="4" size="0.002" />
                 <site name="th_mcp_spring0_s0" pos="0 -0.011 0.0045" group="4" size="0.001" />
                 <site name="th_mcp_spring1_s0" pos="0 -0.004 0.009" group="4" size="0.001" />
-                <body name="left_thumb_proximal_link" pos="0 -0.0013652 0.035982" quat="0.7070280932 0.01077300142 0.01078850142 -0.7070210932">
+                <body name="left_thumb_proximal_link" pos="0 -0.0013652 0.035982">
                   <inertial pos="-9.60413e-08 0.00147723 0.0133935" quat="0.7070280932 0.01077300142 0.01078850142 -0.7070210932" mass="0.00574573" diaginertia="6.77924e-07 5.00351e-07 3.51862e-07"/>
                   <joint name="left_thumb_mcp" pos="0 0 0" axis="-1 -0 -0" range="0 1.5708" class="thumb_mcp" />
                   <geom type="mesh" mesh="left_thumb_proximal_link" class="hand_visual" />
